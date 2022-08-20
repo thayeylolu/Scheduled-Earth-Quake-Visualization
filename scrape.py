@@ -42,10 +42,23 @@ def main():
             if len(tweets) > limit:
                 break
             else:
+                content = tweet.content
+                map_index = content.find("Map")
+                if content.find("Map:") != -1:
+                    link_url = content[map_index + 5:]
+                    print(link_url)
+                    inner_link = get_title(get_page(link_url))
+                    soup = get_page(inner_link)
+                    location = get_title(soup)
+                    last_url = get_page(soup)
+                else:
+                    location = ""
+                    link_url = ""
+                    last_url = ""
                    
-                tweets.append([tweet.date, tweet.user.username, tweet.content])
+                tweets.append([tweet.date, tweet.user.username, tweet.content, link_url, location, last_url])
 
-    df = pd.DataFrame(tweets, columns=["Date", "User", "Tweet"])
+    df = pd.DataFrame(tweets, columns=["Date", "User", "Tweet","Link", "Location", "last url"])
 
     # to save to csv
     df.to_csv('earthquake_bot_with_location.csv')
