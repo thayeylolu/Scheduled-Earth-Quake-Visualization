@@ -6,36 +6,52 @@
 Usage: scrape_tweet.py 
 """
 
-from docopt import docopt
 import snscrape.modules.twitter as sntwitter
 import pandas as pd
 import datetime as dt
-import requests
-from bs4 import BeautifulSoup
+import time
+import re
 
-def get_page(url):
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) \
-                AppleWebKit/ (KHTML, like Gecko)\
-                Chrome/ Safari/'}
+from selenium import webdriver
+from selenium.common.exceptions import TimeoutException
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
 
-    response = requests.get(url, headers=headers)
-    #print(response.content)
-    soup = BeautifulSoup(response.content.decode('cp1252'), 'html.parser')
-    return soup
 
-def get_title(soup):
-    if soup.findAll("title"):
-        return soup.find("title").string
-    else:
-        return ""
-   
 limit = 50
+timeout = 20
 today_date = dt.date.today().strftime("%Y-%m-%d")
-
 query_list = [
     (f"(@earthquakeBot) lang:en since:2022-08-18 until:{today_date})"),
 ]
+class WebDriverImplementation:
+    def __init__(self):
+        self.options = webdriver.ChromeOptions()
+        self.options.binary_location = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+        self.driver = webdriver.Chrome(options = self.options)
+
+    def get_page(self, url):
+        try:
+            self.driver.get(url)
+            map_present = EC.url_contains("https://www.google.com/maps/place/")
+            WebDriverWait(self.driver, timeout).until(map_present) # visit the last redirect link
+            return self.driver.current_url
+        except TimeoutException:
+            return "Timed out waiting for page to load"
+
+    def scrape_coordinates(self):
+        #(?<=X)(.*?)(?=Y) get cooridnates from string
+        coordinates = re.search("(?<=maps/place/)(.*?)(?=/)", self.driver.current_url)
+        return coordinates.group()
+
+    def scrape_location_details(self):
+        elements = self.driver.find_elements(By.XPATH, "//span[@class='DkEaL']")
+        self.driver.implicitly_wait(2)
+        return [i.get_attribute('textContent') for i in elements]
+
 def main():
+    web_driver = WebDriverImplementation()
     tweets = []
     for query in query_list:
         for tweet in sntwitter.TwitterSearchScraper(query).get_items():
@@ -46,19 +62,17 @@ def main():
                 map_index = content.find("Map")
                 if content.find("Map:") != -1:
                     link_url = content[map_index + 5:]
-                    print(link_url)
-                    inner_link = get_title(get_page(link_url))
-                    soup = get_page(inner_link)
-                    location = get_title(soup)
-                    last_url = get_page(soup)
+                    map_url = web_driver.get_page(link_url)
+                    coordinates = web_driver.scrape_coordinates()
+                    location = web_driver.scrape_location_details()      
                 else:
                     location = ""
-                    link_url = ""
-                    last_url = ""
-                   
-                tweets.append([tweet.date, tweet.user.username, tweet.content, link_url, location, last_url])
+                    map_url = ""
+                    coordinates = ""
+                tweets.append([tweet.date, tweet.user.username, tweet.content, location, map_url, coordinates])
 
-    df = pd.DataFrame(tweets, columns=["Date", "User", "Tweet","Link", "Location", "last url"])
+    df = pd.DataFrame(tweets, columns=["Date", "User", 
+                    "Tweet","Location", "Map URL", "Coordinates"])
 
     # to save to csv
     df.to_csv('earthquake_bot_with_location.csv')
