@@ -6,10 +6,29 @@
 Usage: scrape_tweet.py 
 """
 
+from docopt import docopt
 import snscrape.modules.twitter as sntwitter
 import pandas as pd
 import datetime as dt
+import requests
+from bs4 import BeautifulSoup
 
+def get_page(url):
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) \
+                AppleWebKit/ (KHTML, like Gecko)\
+                Chrome/ Safari/'}
+
+    response = requests.get(url, headers=headers)
+    #print(response.content)
+    soup = BeautifulSoup(response.content.decode('cp1252'), 'html.parser')
+    return soup
+
+def get_title(soup):
+    if soup.findAll("title"):
+        return soup.find("title").string
+    else:
+        return ""
+   
 limit = 50
 today_date = dt.date.today().strftime("%Y-%m-%d")
 
