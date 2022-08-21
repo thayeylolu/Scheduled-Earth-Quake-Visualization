@@ -21,7 +21,7 @@ CLEAN_DATA_DIR = os.path.join(PARENT_DIR, "data/preprocessed/clean")
 
 
 if not os.path.exists(CLEAN_DATA_DIR):
-    os.mkdir(CLEAN_DATA_DIR)
+     os.makedirs(CLEAN_DATA_DIR)
 
 # pick the most recent file
 data = pd.read_csv(f'{RAW_DATA_DIR}/earthquake_bot_{str_today_date}.csv')

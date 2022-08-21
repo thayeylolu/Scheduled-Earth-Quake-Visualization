@@ -32,7 +32,7 @@ str_today_date = str(today_date).replace('-', '_')
 str_yesdy_date = str(lastwk_date).replace('-', '_')
 
 if not os.path.exists(RAW_DATA_DIR):
-    os.mkdirs(RAW_DATA_DIR)
+    os.makedirs(RAW_DATA_DIR)
 
 query_list = [
     (f"(@earthquakeBot) lang:en since:{lastwk_date} until:{today_date})"),

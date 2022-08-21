@@ -22,7 +22,7 @@ today_date = dt.date.today().strftime("%Y-%m-%d")
 str_today_date = str(today_date).replace('-', '_')
 
 if not os.path.exists(NUMERIC_DATA_DIR):
-    os.mkdir(NUMERIC_DATA_DIR)
+    os.makedirs(NUMERIC_DATA_DIR)
 # pick the most recent file
 data = pd.read_csv(f'{CLEAN_DATA_DIR}/clean_eq_{str_today_date}.csv')
 data = data.drop("Unnamed: 0",axis=1)

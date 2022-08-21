@@ -22,7 +22,7 @@ today_date = dt.date.today().strftime("%Y-%m-%d")
 str_today_date = str(today_date).replace('-', '_')
 
 if not os.path.exists(LOCATION_DATA_DIR):
-    os.mkdir(LOCATION_DATA_DIR)
+    os.makedirs(LOCATION_DATA_DIR)
 
 data = pd.read_csv(f'{CLEAN_DATA_DIR}/clean_eq_{str_today_date}.csv')
 data = data.drop("Unnamed: 0",axis=1)
