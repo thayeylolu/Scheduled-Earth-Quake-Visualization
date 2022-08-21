@@ -4,8 +4,8 @@ name: run earthquake heatmap
 
 # Controls when the workflow will run
 on:
-  schedule:
-    - cron: '*/5 * * * *' # initial run : 5 minutes
+  # schedule:
+    # - cron: '*/5 * * * *' # initial run : 5 minutes
   push:
     branches:
       - main
@@ -37,7 +37,6 @@ jobs:
           python script/preparation/location_data.py 
           python script/preparation/numeric_data.py 
           python script/visualization/visual_heatmap.py
-          update-readme:
           
       - name: Update Image README
         uses: siddharth2016/update-readme-image@main
