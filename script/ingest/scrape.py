@@ -39,9 +39,7 @@ query_list = [
 ]
 class WebDriverImplementation:
     def __init__(self):
-        self.options = webdriver.ChromeOptions()
-        self.options.binary_location = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
-        self.driver = webdriver.Chrome(options = self.options)
+        self.driver = webdriver.Chrome()
 class GoogleMaps(WebDriverImplementation):
     def get_page(self, url):
         try:
