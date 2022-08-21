@@ -16,14 +16,15 @@ str_today_date = str(today_date).replace('-', '_')
 
 CURRENT_DIR = os.getcwd()
 PARENT_DIR = CURRENT_DIR.replace("/script/preparation", "")
-RAW_DATA_DIR = PARENT_DIR + "/data/raw"
-CLEAN_DATA_DIR = PARENT_DIR + "/data/preprocessed/clean"
+RAW_DATA_DIR = os.path.join(PARENT_DIR ,"/data/raw")
+CLEAN_DATA_DIR = os.path.join(PARENT_DIR, "/data/preprocessed/clean")
+
 
 if not os.path.exists(CLEAN_DATA_DIR):
     os.mkdir(CLEAN_DATA_DIR)
 
 # pick the most recent file
-data = pd.read_csv(f'{RAW_DATA_DIR}/earthquake_bot_2022_08_20.csv')
+data = pd.read_csv(f'{RAW_DATA_DIR}/earthquake_bot_{str_today_date}.csv')
 data = data.rename(columns={'Unnamed: 0':'id'})
 
 def _find_last_word(x):
@@ -42,6 +43,7 @@ def clean_data(df):
     df['date_'] = pd.to_datetime(df['date'])
     df['date'] = df.date_.apply(lambda x: x.date())
     df['time'] = df.date_.apply(lambda x: x.time())
+    df['id'] = df['date'].astype(str) + 'ID' +  df['id'].astype(str)
     df['region']= df.region.str.replace('occurred ', '').replace('in ', '').replace('.', '')
     df['filtered_location'] = df.location.apply(lambda x : _find_last_word(x))
     clean_df = df[['id','date', 'time', 'location','filtered_location', 'lat', 'long', 'magnitude']]
