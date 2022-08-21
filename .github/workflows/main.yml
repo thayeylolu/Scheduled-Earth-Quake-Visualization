@@ -16,7 +16,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      
+
       - name: setup python
         uses: actions/setup-python@v3
         with:
@@ -41,6 +41,7 @@ jobs:
         with:
           IMG_ALT: Image ALT
           H_TOKEN: ${{ secrets.GH_TOKEN }}
+          IMG_PATH: "results"
         
       - name: commit files
         run: |
