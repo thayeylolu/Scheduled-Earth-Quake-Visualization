@@ -6,6 +6,9 @@ name: run earthquake heatmap
 on:
   schedule:
     - cron: '*/5 * * * *' # initial run : 5 minutes
+  push:
+    branches:
+      - main
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -20,16 +23,16 @@ jobs:
       - name: setup python
         uses: actions/setup-python@v3
         with:
-          python-version: '3.9'
+          python-version: '3.8'
           
       - name: install python packages
         run: |
-          python -m pip intall --upgrade pip
+          python -m pip install --upgrade pip
           pip install -r requirements.txt
           
       - name: execute py script # run all scripts
         run: |
-          python sript/ingest/scrape.py
+          python script/ingest/scrape.py
           python preparation/clean_data.py
           python preparation/location_data.py 
           python preparation/numeric_data.py 
