@@ -12,7 +12,7 @@ import  os
 import datetime as dt
 
 CURRENT_DIR = os.getcwd()
-PARENT_DIR = CURRENT_DIR.replace("/notebooks", "")
+PARENT_DIR = CURRENT_DIR.replace("/script/preparation", "")
 RAW_DATA_DIR = PARENT_DIR + "/data/raw"
 CLEAN_DATA_DIR = PARENT_DIR + "/data/preprocessed/clean"
 NUMERIC_DATA_DIR = PARENT_DIR + "/data/preprocessed/numeric"

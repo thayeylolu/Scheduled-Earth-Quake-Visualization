@@ -15,7 +15,7 @@ today_date = dt.date.today().strftime("%Y-%m-%d")
 str_today_date = str(today_date).replace('-', '_')
 
 CURRENT_DIR = os.getcwd()
-PARENT_DIR = CURRENT_DIR.replace("/notebooks", "")
+PARENT_DIR = CURRENT_DIR.replace("/script/preparation", "")
 RAW_DATA_DIR = PARENT_DIR + "/data/raw"
 CLEAN_DATA_DIR = PARENT_DIR + "/data/preprocessed/clean"
 
