@@ -23,7 +23,8 @@ str_today_date = str(today_date).replace('-', '_')
 if not os.path.exists(LOCATION_DATA_DIR):
     os.mkdir(LOCATION_DATA_DIR)
 
-data = df = pd.read_csv(f'{CLEAN_DATA_DIR}/clean_eq_2022_08_20.csv')
+data = pd.read_csv(f'{CLEAN_DATA_DIR}/clean_eq_2022_08_20.csv')
+data = data.drop("Unnamed: 0",axis=1)
 geolocator = Nominatim(user_agent="located_coord")
 
 def _extract_loc_info(address):
