@@ -21,7 +21,7 @@ limit = 50
 timeout = 20
 
 PARENT_DIR = os.getcwd()
-RAW_DATA_DIR = PARENT_DIR + "/data/raw/"
+RAW_DATA_DIR = PARENT_DIR + "/data/raw"
 today_date = dt.date.today().strftime("%Y-%m-%d")
 
 query_list = [
@@ -109,7 +109,7 @@ def main():
                                         "lat","long", "magnitude"])
 
     # to save to csv
-    df.to_csv(f'{RAW_DATA_DIR}earthquake_bot_{today_date}.csv')
+    df.to_csv(f'{RAW_DATA_DIR}/earthquake_bot_{today_date}.csv')
 if __name__ == "__main__":
     main()
 
