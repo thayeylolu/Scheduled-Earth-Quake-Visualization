@@ -51,6 +51,7 @@ def create_geolocation_data(df):
     location_df['country'] = location_df['loc_info'].apply(lambda x : _extract_loc_info(x))
     location_df['country'].fillna(location_df['filtered_location'], inplace=True)
 
+    location_df= location_df[['id','lat', 'long', 'country', 'geom_data']]
     return location_df.to_csv(f'{LOCATION_DATA_DIR}/location_eq_{str_today_date}.csv')
 
 create_geolocation_data(data)

@@ -26,5 +26,5 @@ if not os.path.exists(NUMERIC_DATA_DIR):
 data = pd.read_csv(f'{CLEAN_DATA_DIR}/clean_eq_2022_08_20.csv')
 data = data.drop("Unnamed: 0",axis=1)
 
-numeric_data = data[["p_id", "date", "time", "magnitude"]]
+numeric_data = data[["id", "date", "time", "magnitude"]]
 numeric_data.to_csv(f'{NUMERIC_DATA_DIR}/numeric_eq_{str_today_date}.csv')

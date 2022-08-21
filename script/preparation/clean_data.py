@@ -24,7 +24,7 @@ if not os.path.exists(CLEAN_DATA_DIR):
 
 # pick the most recent file
 data = pd.read_csv(f'{RAW_DATA_DIR}/earthquake_bot_2022_08_20.csv')
-data = data.rename(columns={'Unnamed: 0':'p_id'})
+data = data.rename(columns={'Unnamed: 0':'id'})
 
 def _find_last_word(x):
     last_word = re.search("(\w+)$", x).group()
@@ -44,7 +44,7 @@ def clean_data(df):
     df['time'] = df.date_.apply(lambda x: x.time())
     df['region']= df.region.str.replace('occurred ', '').replace('in ', '').replace('.', '')
     df['filtered_location'] = df.location.apply(lambda x : _find_last_word(x))
-    clean_df = df[['p_id','date', 'time', 'location','filtered_location', 'lat', 'long', 'magnitude']]
+    clean_df = df[['id','date', 'time', 'location','filtered_location', 'lat', 'long', 'magnitude']]
 
     return clean_df.to_csv(f'{CLEAN_DATA_DIR}/clean_eq_{str_today_date}.csv')
 
