@@ -13,9 +13,10 @@ import datetime as dt
 
 CURRENT_DIR = os.getcwd()
 PARENT_DIR = CURRENT_DIR.replace("/script/preparation", "")
-RAW_DATA_DIR = PARENT_DIR + "/data/raw"
-CLEAN_DATA_DIR = PARENT_DIR + "/data/preprocessed/clean"
-LOCATION_DATA_DIR = PARENT_DIR + "/data/preprocessed/location"
+RAW_DATA_DIR = os.path.join(PARENT_DIR ,"data/raw")
+CLEAN_DATA_DIR = os.path.join(PARENT_DIR, "data/preprocessed/clean")
+LOCATION_DATA_DIR = os.path.join(PARENT_DIR , "data/preprocessed/location")
+print(LOCATION_DATA_DIR)
 
 today_date = dt.date.today().strftime("%Y-%m-%d")
 str_today_date = str(today_date).replace('-', '_')
@@ -23,7 +24,7 @@ str_today_date = str(today_date).replace('-', '_')
 if not os.path.exists(LOCATION_DATA_DIR):
     os.mkdir(LOCATION_DATA_DIR)
 
-data = pd.read_csv(f'{CLEAN_DATA_DIR}/clean_eq_2022_08_20.csv')
+data = pd.read_csv(f'{CLEAN_DATA_DIR}/clean_eq_{str_today_date}.csv')
 data = data.drop("Unnamed: 0",axis=1)
 geolocator = Nominatim(user_agent="located_coord")
 

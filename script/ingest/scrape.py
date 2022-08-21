@@ -8,6 +8,7 @@ Usage: scrape.py
 
 import pandas as pd
 import datetime as dt
+from datetime import datetime, timedelta
 import re, os
 
 from selenium import webdriver
@@ -24,13 +25,17 @@ PARENT_DIR = os.getcwd()
 RAW_DATA_DIR = PARENT_DIR + "/data/raw"
 
 today_date = dt.date.today().strftime("%Y-%m-%d")
+lastwk_date = dt.date.today() - timedelta(days=7)
+lastwk_date = lastwk_date.strftime("%Y-%m-%d") 
+
 str_today_date = str(today_date).replace('-', '_')
+str_yesdy_date = str(lastwk_date).replace('-', '_')
 
 if not os.path.exists(RAW_DATA_DIR):
     os.mkdir(RAW_DATA_DIR)
 
 query_list = [
-    (f"(@earthquakeBot) lang:en since:2022-08-18 until:{today_date})"),
+    (f"(@earthquakeBot) lang:en since:{lastwk_date} until:{today_date})"),
 ]
 class WebDriverImplementation:
     def __init__(self):
