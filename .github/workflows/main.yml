@@ -33,10 +33,10 @@ jobs:
       - name: execute py script # run all scripts
         run: |
           python script/ingest/scrape.py
-          python preparation/clean_data.py
-          python preparation/location_data.py 
-          python preparation/numeric_data.py 
-          python visualization/visual_heatmap.py
+          python script/preparation/clean_data.py
+          python script/preparation/location_data.py 
+          python script/preparation/numeric_data.py 
+          python script/visualization/visual_heatmap.py
           update-readme:
           
       - name: Update Image README
