@@ -22,6 +22,9 @@ timeout = 20
 
 PARENT_DIR = os.getcwd()
 RAW_DATA_DIR = PARENT_DIR + "/data/raw"
+
+if not os.path.exists(RAW_DATA_DIR):
+    os.mkdir(RAW_DATA_DIR)
 today_date = dt.date.today().strftime("%Y-%m-%d")
 
 query_list = [
