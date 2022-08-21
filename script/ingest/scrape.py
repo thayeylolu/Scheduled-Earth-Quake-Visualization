@@ -22,7 +22,7 @@ limit = 50
 timeout = 20
 
 PARENT_DIR = os.getcwd()
-RAW_DATA_DIR = PARENT_DIR + "/data/raw"
+RAW_DATA_DIR = os.path.join(PARENT_DIR ,"data/raw")
 
 today_date = dt.date.today().strftime("%Y-%m-%d")
 lastwk_date = dt.date.today() - timedelta(days=7)
