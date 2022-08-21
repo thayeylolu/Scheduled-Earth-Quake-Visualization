@@ -1,0 +1,29 @@
+,id,date,time,location,filtered_location,lat,long,magnitude
+0,2022-08-19ID2,2022-08-19,18:17:02,South Atlantic Ocean,South Atlantic Ocean,-57.9983,-25.7068,5.2
+1,2022-08-19ID5,2022-08-19,11:27:01,South Atlantic Ocean,South Atlantic Ocean,-20.5094,-11.7191,5.2
+2,2022-08-19ID6,2022-08-19,05:25:01,South Atlantic Ocean,South Atlantic Ocean,-56.1713,-27.3639,5.3
+3,2022-08-19ID8,2022-08-19,03:02:01,South Atlantic Ocean,South Atlantic Ocean,-20.4496,-11.7901,5.1
+4,2022-08-18ID10,2022-08-18,21:54:01,South Atlantic Ocean,South Atlantic Ocean,-20.2238,-12.4116,5.1
+5,2022-08-18ID12,2022-08-18,18:03:01,South Pacific Ocean,South Pacific Ocean,-22.2898,171.6659,5.0
+6,2022-08-18ID15,2022-08-18,08:02:02,Molucca Sea,Molucca Sea,0.3403,124.3752,5.4
+7,2022-08-18ID16,2022-08-18,06:09:01,North Pacific Ocean,North Pacific Ocean,37.6284,141.6741,5.1
+8,2022-08-18ID18,2022-08-18,02:28:01,"Requinoa, O'Higgins, Chile",Chile,-34.3475,-70.5794,5.3
+9,2022-08-17ID21,2022-08-17,13:14:01,Banda Sea,Banda Sea,-7.0096,125.4748,5.5
+10,2022-08-17ID22,2022-08-17,04:44:01,North Pacific Ocean,North Pacific Ocean,33.1659,141.6785,5.4
+11,2022-08-17ID24,2022-08-17,02:07:02,North Pacific Ocean,North Pacific Ocean,56.066,-155.957,5.2
+12,2022-08-16ID26,2022-08-16,17:45:01,"Morobe Province, Papua New Guinea",Guinea,-5.9323,146.6275,5.0
+13,2022-08-16ID31,2022-08-16,11:21:01,Pacific Ocean,Pacific Ocean,44.3002,149.5379,5.0
+14,2022-08-16ID32,2022-08-16,11:01:01,Pacific Ocean,Pacific Ocean,44.3657,149.5,5.1
+15,2022-08-16ID33,2022-08-16,08:55:01,South Pacific Ocean,South Pacific Ocean,-22.4001,170.3261,5.0
+16,2022-08-16ID34,2022-08-16,07:31:02,Australia,Australia,-54.8013,158.5708,5.2
+17,2022-08-15ID36,2022-08-15,17:08:01,South Atlantic Ocean,South Atlantic Ocean,-7.1058,-12.8951,5.0
+18,2022-08-15ID39,2022-08-15,08:52:02,"Qilian County, Haibei, Qinghai, China",China,38.4817,99.1373,5.3
+19,2022-08-15ID40,2022-08-15,08:45:02,"Poblacion, Columbio, Sultan Kudarat, Philippines",Philippines,6.6378,125.0013,5.2
+20,2022-08-15ID42,2022-08-15,01:56:02,"Morobe Province, Papua New Guinea",Guinea,-5.9927,147.3494,5.1
+21,2022-08-14ID44,2022-08-14,21:22:01,South Pacific Ocean,South Pacific Ocean,-22.0641,170.9274,6.2
+22,2022-08-14ID46,2022-08-14,14:52:02,Bering Sea,Bering Sea,51.837,178.1519,5.4
+23,2022-08-14ID49,2022-08-14,13:55:01,South Pacific Ocean,South Pacific Ocean,-32.919,-178.004,6.8
+24,2022-08-14ID52,2022-08-14,10:09:02,Indian Ocean,Indian Ocean,-52.8982,22.1729,5.3
+25,2022-08-14ID54,2022-08-14,03:43:01,Turkey,Turkey,37.9837,27.1478,5.0
+26,2022-08-14ID56,2022-08-14,03:31:01,Coral Sea,Coral Sea,-15.7976,167.0591,5.9
+27,2022-08-14ID58,2022-08-14,03:08:01,Molucca Sea,Molucca Sea,1.8151,126.3654,5.7
