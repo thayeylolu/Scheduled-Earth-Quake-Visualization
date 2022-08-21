@@ -3,7 +3,7 @@
 # date: 2022-08-19
 
 """Scrape data from the earhquakebot and store as csv file.
-Usage: scrape_tweet.py 
+Usage: scrape.py 
 """
 
 import pandas as pd
