@@ -37,13 +37,6 @@ jobs:
           python script/preparation/location_data.py 
           python script/preparation/numeric_data.py 
           python script/visualization/visual_heatmap.py
-          
-      - name: Update Image README
-        uses: siddharth2016/update-readme-image@main
-        with:
-          IMG_ALT: Image ALT
-          H_TOKEN: ${{ secrets.GH_TOKEN }}
-          IMG_PATH: "results"
         
       - name: commit files
         run: |
