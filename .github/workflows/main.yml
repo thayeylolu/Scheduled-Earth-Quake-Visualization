@@ -1,0 +1,57 @@
+# This is a basic workflow to help you get started with Actions
+
+name: run earthquake heatmap
+
+# Controls when the workflow will run
+on:
+  schedule:
+    - cron: '*/5 * * * *' # initial run : 5 minutes
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: setup python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.9'
+          
+      - name: install python packages
+        run: |
+          python -m pip intall --upgrade pip
+          pip install -r requirements.txt
+          
+      - name: execute py script # run all scripts
+        run: |
+          python sript/ingest/scrape.py
+          python preparation/clean_data.py
+          python preparation/location_data.py 
+          python preparation/numeric_data.py 
+          python visualization/visual_heatmap.py
+          update-readme:
+          
+      - name: Update Image README
+        uses: siddharth2016/update-readme-image@main
+        with:
+          IMG_ALT: Image ALT
+          H_TOKEN: ${{ secrets.GH_TOKEN }}
+          IMG_PATH: "results"
+        
+      - name: commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git diff-index --quiet HEAD || (git commit -a -m "update visuals" --allow-empty)
+          
+      - name: push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main 
