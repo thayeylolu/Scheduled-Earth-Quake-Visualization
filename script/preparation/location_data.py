@@ -45,7 +45,7 @@ def create_geolocation_data(df):
     df['lat'] = df['lat'].astype(str)
     df['long'] = df['long'].astype(str)
 
-    location_df = df[['lat','long', 'filtered_location']]
+    location_df = df[['p_id','lat','long', 'filtered_location']]
     location_df['geom_data'] = location_df["lat"].map(str)  + ',' + location_df['long'].map(str)
     location_df['loc_info'] = location_df['geom_data'].apply(lambda x : _get_location_info(x))
     location_df['country'] = location_df['loc_info'].apply(lambda x : _extract_loc_info(x))
