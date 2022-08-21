@@ -16,7 +16,7 @@ PARENT_DIR = CURRENT_DIR.replace("/script/preparation", "")
 RAW_DATA_DIR = os.path.join(PARENT_DIR ,"data/raw")
 CLEAN_DATA_DIR = os.path.join(PARENT_DIR, "data/preprocessed/clean")
 LOCATION_DATA_DIR = os.path.join(PARENT_DIR , "data/preprocessed/location")
-print(LOCATION_DATA_DIR)
+
 
 today_date = dt.date.today().strftime("%Y-%m-%d")
 str_today_date = str(today_date).replace('-', '_')
