@@ -5,7 +5,7 @@ name: run earthquake heatmap
 # Controls when the workflow will run
 on:
   schedule:
-    - cron: '*/5 * * * *' # initial run : 5 minutes
+    - cron: '* * * * 0-6' # once every sundays
   push:
     branches:
       - main
