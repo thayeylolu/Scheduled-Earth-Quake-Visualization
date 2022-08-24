@@ -1533,3 +1533,50 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 DevTools listening on ws://localhost:49397/devtools/browser/b0d5c24a-c6b5-4e6e-86e9-3ddd64e5412a
 1661328906425	Marionette	INFO	Stopped listening on port 49424
 !!! error running onStopped callback: TypeError: callback is not a function
+1661330552378	geckodriver	INFO	Listening on 127.0.0.1:49349
+1661330553863	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49350" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/rust_mozprofileDmhpY6"
+1661330571481	Marionette	INFO	Marionette enabled
+1661330572175	Marionette	INFO	Listening on port 49367
+Read port: 49367
+WebDriver BiDi listening on ws://localhost:49350
+Read port: 49367
+Read port: 49367
+Read port: 49367
+Read port: 49367
+Read port: 49367
+Read port: 49367
+Read port: 49367
+Read port: 49367
+Read port: 49367
+Read port: 49367
+Read port: 49367
+Read port: 49367
+Read port: 49367
+Read port: 49367
+Read port: 49367
+Read port: 49367
+Read port: 49367
+Read port: 49367
+Read port: 49367
+Read port: 49367
+Read port: 49367
+Read port: 49367
+Read port: 49367
+Read port: 49367
+Read port: 49367
+Read port: 49367
+Read port: 49367
+Read port: 49367
+Read port: 49367
+Read port: 49367
+Read port: 49367
+Read port: 49367
+Read port: 49367
+Read port: 49367
+Read port: 49367
+Read port: 49367
+1661330618822	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/rust_mozprofileDmhpY6/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49350/devtools/browser/80de9695-f455-4ae7-94a0-6b119beba54f
+1661330659707	Marionette	INFO	Stopped listening on port 49367
+!!! error running onStopped callback: TypeError: callback is not a function
