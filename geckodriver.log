@@ -1746,3 +1746,14 @@ DevTools listening on ws://localhost:49372/devtools/browser/25fd42cd-30d5-4584-a
 1661349339416	Marionette	INFO	Stopped listening on port 49404
 !!! error running onStopped callback: TypeError: callback is not a function
 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1661350078804	geckodriver	INFO	Listening on 127.0.0.1:49398
+1661350079320	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49399" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/rust_mozprofilelcazAu"
+1661350081120	Marionette	INFO	Marionette enabled
+1661350081190	Marionette	INFO	Listening on port 49406
+WebDriver BiDi listening on ws://localhost:49399
+Read port: 49406
+Read port: 49406
+1661350082688	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/rust_mozprofilelcazAu/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49399/devtools/browser/7100b6c9-0c80-4c30-bb11-a3dd5ce5316d
+1661350091679	Marionette	INFO	Stopped listening on port 49406
