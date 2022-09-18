@@ -3772,3 +3772,50 @@ Read port: 49467
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/rust_mozprofileN29cUu/search.json.mozlz4", (void 0)))
 DevTools listening on ws://localhost:49460/devtools/browser/44177418-cb53-4d43-a3f3-cda42c16c2a6
 1663481097818	Marionette	INFO	Stopped listening on port 49467
+1663483028966	geckodriver	INFO	Listening on 127.0.0.1:49339
+1663483030538	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49340" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/rust_mozprofileWfbb0U"
+1663483046436	Marionette	INFO	Marionette enabled
+1663483046974	Marionette	INFO	Listening on port 49355
+Read port: 49355
+WebDriver BiDi listening on ws://localhost:49340
+Read port: 49355
+Read port: 49355
+Read port: 49355
+Read port: 49355
+Read port: 49355
+Read port: 49355
+Read port: 49355
+Read port: 49355
+Read port: 49355
+Read port: 49355
+Read port: 49355
+Read port: 49355
+Read port: 49355
+Read port: 49355
+Read port: 49355
+Read port: 49355
+Read port: 49355
+Read port: 49355
+Read port: 49355
+Read port: 49355
+Read port: 49355
+Read port: 49355
+Read port: 49355
+Read port: 49355
+Read port: 49355
+Read port: 49355
+Read port: 49355
+Read port: 49355
+Read port: 49355
+Read port: 49355
+Read port: 49355
+Read port: 49355
+Read port: 49355
+Read port: 49355
+Read port: 49355
+Read port: 49355
+1663483091877	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/rust_mozprofileWfbb0U/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49340/devtools/browser/072844f8-b322-484b-a402-b22c1ea0f16e
+1663483120077	Marionette	INFO	Stopped listening on port 49355
+!!! error running onStopped callback: TypeError: callback is not a function
