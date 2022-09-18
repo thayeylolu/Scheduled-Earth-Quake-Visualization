@@ -4054,3 +4054,47 @@ Read port: 49416
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/rust_mozprofilevDORqT/search.json.mozlz4", (void 0)))
 DevTools listening on ws://localhost:49409/devtools/browser/2d3b363a-24ea-4aff-b750-f902081df5f0
 1663510855948	Marionette	INFO	Stopped listening on port 49416
+1663511909981	geckodriver	INFO	Listening on 127.0.0.1:49339
+1663511911957	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49340" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/rust_mozprofileAHMPDG"
+1663511928659	Marionette	INFO	Marionette enabled
+1663511929358	Marionette	INFO	Listening on port 49359
+Read port: 49359
+WebDriver BiDi listening on ws://localhost:49340
+Read port: 49359
+Read port: 49359
+Read port: 49359
+Read port: 49359
+Read port: 49359
+Read port: 49359
+Read port: 49359
+Read port: 49359
+Read port: 49359
+Read port: 49359
+Read port: 49359
+Read port: 49359
+Read port: 49359
+Read port: 49359
+Read port: 49359
+Read port: 49359
+Read port: 49359
+Read port: 49359
+Read port: 49359
+Read port: 49359
+Read port: 49359
+Read port: 49359
+Read port: 49359
+Read port: 49359
+Read port: 49359
+Read port: 49359
+Read port: 49359
+Read port: 49359
+Read port: 49359
+Read port: 49359
+Read port: 49359
+Read port: 49359
+Read port: 49359
+1663511971974	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/rust_mozprofileAHMPDG/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49340/devtools/browser/86131bc3-9d89-4eb1-a67e-15a5fe63639d
+1663512010203	Marionette	INFO	Stopped listening on port 49359
+!!! error running onStopped callback: TypeError: callback is not a function
