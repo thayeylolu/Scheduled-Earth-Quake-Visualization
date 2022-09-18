@@ -1,30 +1,30 @@
 ,id,date,time,location,filtered_location,lat,long,magnitude
-0,2022-09-17ID1,2022-09-17,15:02:01,"959, Taiwan, Condado de Taitung, Donghe Township, 尚德村",尚德村,22.9716,121.2155,5.5
-1,2022-09-17ID2,2022-09-17,14:53:01,"958, Taiwan, Condado de Taitung, Chishang Township, 錦園村",錦園村,23.0891,121.2412,5.1
+0,2022-09-17ID1,2022-09-17,15:02:01,"959, Taiwan, Taitung County, Donghe Township, 尚德村",尚德村,22.9716,121.2155,5.5
+1,2022-09-17ID2,2022-09-17,14:53:01,"958, Taiwan, Taitung County, Chishang Township, 錦園村",錦園村,23.0891,121.2412,5.1
 2,2022-09-17ID4,2022-09-17,13:59:01,"Pozo Almonte, Tarapacá, Chile",Chile,-20.1807,-69.1546,5.1
-3,2022-09-17ID5,2022-09-17,13:52:01,"955, Taiwan, Condado de Taitung, Luye Township, 瑞和村",瑞和村,23.0,121.2,6.6
-4,2022-09-17ID6,2022-09-17,06:43:01,Oceano Índico,Índico,-7.265,105.0794,5.1
-5,2022-09-17ID7,2022-09-17,05:44:01,Oceano Índico,Índico,-52.7327,25.7117,5.2
-6,2022-09-17ID8,2022-09-17,00:27:01,Oceano Pacífico Sul,Sul,-30.089,-177.9186,5.3
-7,2022-09-17ID9,2022-09-17,00:16:01,Oceano Pacífico Sul,Sul,-22.3617,170.7824,5.5
-8,2022-09-16ID10,2022-09-16,16:37:01,Mar de Bismarck,Bismarck,-5.4389,148.1699,5.2
-9,2022-09-16ID11,2022-09-16,04:57:01,Mar das Filipinas,Filipinas,11.8598,141.1943,5.1
+3,2022-09-17ID5,2022-09-17,13:52:01,"955, Taiwan, Taitung County, Luye Township, 瑞和村",瑞和村,23.0,121.2,6.6
+4,2022-09-17ID6,2022-09-17,06:43:01,Indian Ocean,Indian Ocean,-7.265,105.0794,5.1
+5,2022-09-17ID7,2022-09-17,05:44:01,Indian Ocean,Indian Ocean,-52.7327,25.7117,5.2
+6,2022-09-17ID8,2022-09-17,00:27:01,South Pacific Ocean,South Pacific Ocean,-30.089,-177.9186,5.3
+7,2022-09-17ID9,2022-09-17,00:16:01,South Pacific Ocean,South Pacific Ocean,-22.3617,170.7824,5.5
+8,2022-09-16ID10,2022-09-16,16:37:01,Bismarck Sea,Bismarck Sea,-5.4389,148.1699,5.2
+9,2022-09-16ID11,2022-09-16,04:57:01,Philippine Sea,Philippine Sea,11.8598,141.1943,5.1
 10,2022-09-15ID13,2022-09-15,23:17:01,"Kargilik County, Kashgar Prefecture, Xinjiang, China",China,35.9433,77.7578,5.0
-11,2022-09-15ID14,2022-09-15,14:15:01,Mar de Bering,Bering,52.11,179.827,5.1
-12,2022-09-15ID15,2022-09-15,02:51:01,Mar de Coral,Coral,-12.5416,166.5552,5.1
-13,2022-09-14ID20,2022-09-14,11:12:01,Oceano Pacífico Sul,Sul,-21.196,170.139,7.0
-14,2022-09-14ID21,2022-09-14,08:59:01,Oceano Pacífico Norte,Norte,12.55,-87.8124,5.2
-15,2022-09-14ID23,2022-09-14,05:18:02,Oceano Pacífico Sul,Sul,-16.915,-168.778,6.0
-16,2022-09-14ID25,2022-09-14,04:26:02,Oceano Pacífico Norte,Norte,12.0144,143.5474,5.5
-17,2022-09-13ID28,2022-09-13,21:21:02,Oceano Atlântico Sul,Sul,-56.5379,-25.5161,5.1
-18,2022-09-13ID29,2022-09-13,19:04:02,Oceano Pacífico Norte,Norte,7.2247,-82.2868,5.2
-19,2022-09-13ID30,2022-09-13,18:56:01,Oceano Atlântico Sul,Sul,-20.426,-11.7252,5.1
-20,2022-09-13ID31,2022-09-13,09:25:01,Oceano Pacífico Sul,Sul,-22.9185,-178.4881,5.0
-21,2022-09-13ID32,2022-09-13,03:58:01,Oceano Atlântico Sul,Sul,-58.5736,-16.072,5.0
-22,2022-09-12ID33,2022-09-12,15:20:02,"Morobe, Papua-Nova Guiné",Guiné,-6.2795,146.3035,5.2
-23,2022-09-12ID34,2022-09-12,08:35:02,Mar das Filipinas,Filipinas,6.1766,127.5713,5.6
-24,2022-09-12ID35,2022-09-12,05:15:01,Oceano Pacífico Norte,Norte,41.9783,145.0056,5.0
-25,2022-09-11ID36,2022-09-11,21:41:02,Japão,Japão,41.2018,140.1481,5.0
-26,2022-09-11ID37,2022-09-11,09:28:02,Oceano Pacífico Sul,Sul,-20.9751,-178.9445,5.5
-27,2022-09-11ID40,2022-09-11,04:35:01,Oceano Índico,Índico,-11.0759,110.8536,5.4
-28,2022-09-11ID45,2022-09-11,01:03:01,"Madang, Papua-Nova Guiné",Guiné,-5.8136,146.0076,5.0
+11,2022-09-15ID14,2022-09-15,14:15:01,Bering Sea,Bering Sea,52.11,179.827,5.1
+12,2022-09-15ID15,2022-09-15,02:51:01,Coral Sea,Coral Sea,-12.5416,166.5552,5.1
+13,2022-09-14ID20,2022-09-14,11:12:01,South Pacific Ocean,South Pacific Ocean,-21.196,170.139,7.0
+14,2022-09-14ID21,2022-09-14,08:59:01,North Pacific Ocean,North Pacific Ocean,12.55,-87.8124,5.2
+15,2022-09-14ID23,2022-09-14,05:18:02,South Pacific Ocean,South Pacific Ocean,-16.915,-168.778,6.0
+16,2022-09-14ID25,2022-09-14,04:26:02,North Pacific Ocean,North Pacific Ocean,12.0144,143.5474,5.5
+17,2022-09-13ID28,2022-09-13,21:21:02,South Atlantic Ocean,South Atlantic Ocean,-56.5379,-25.5161,5.1
+18,2022-09-13ID29,2022-09-13,19:04:02,North Pacific Ocean,North Pacific Ocean,7.2247,-82.2868,5.2
+19,2022-09-13ID30,2022-09-13,18:56:01,South Atlantic Ocean,South Atlantic Ocean,-20.426,-11.7252,5.1
+20,2022-09-13ID31,2022-09-13,09:25:01,South Pacific Ocean,South Pacific Ocean,-22.9185,-178.4881,5.0
+21,2022-09-13ID32,2022-09-13,03:58:01,South Atlantic Ocean,South Atlantic Ocean,-58.5736,-16.072,5.0
+22,2022-09-12ID33,2022-09-12,15:20:02,"Morobe Province, Papua New Guinea",Guinea,-6.2795,146.3035,5.2
+23,2022-09-12ID34,2022-09-12,08:35:02,Philippine Sea,Philippine Sea,6.1766,127.5713,5.6
+24,2022-09-12ID35,2022-09-12,05:15:01,North Pacific Ocean,North Pacific Ocean,41.9783,145.0056,5.0
+25,2022-09-11ID36,2022-09-11,21:41:02,Japan,Japan,41.2018,140.1481,5.0
+26,2022-09-11ID37,2022-09-11,09:28:02,South Pacific Ocean,South Pacific Ocean,-20.9751,-178.9445,5.5
+27,2022-09-11ID40,2022-09-11,04:35:01,Indian Ocean,Indian Ocean,-11.0759,110.8536,5.4
+28,2022-09-11ID45,2022-09-11,01:03:01,"Madang Province, Papua New Guinea",Guinea,-5.8136,146.0076,5.0
