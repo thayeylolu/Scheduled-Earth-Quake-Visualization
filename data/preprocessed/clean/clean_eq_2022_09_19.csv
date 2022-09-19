@@ -1,0 +1,36 @@
+,id,date,time,location,filtered_location,lat,long,magnitude
+0,2022-09-18ID2,2022-09-18,10:22:01,East China Sea,East China Sea,26.232,126.0445,5.0
+1,2022-09-18ID3,2022-09-18,10:05:01,Coral Sea,Coral Sea,-10.8151,164.2384,5.5
+2,2022-09-18ID4,2022-09-18,09:58:01,"983, Taiwan, Hualien County, Fuli Township, 羅山村",羅山村,23.1987,121.2979,5.5
+3,2022-09-18ID6,2022-09-18,09:04:01,"959, Taiwan, Taitung County, Donghe Township, 北源村",北源村,23.0634,121.2995,5.2
+4,2022-09-18ID7,2022-09-18,08:29:01,East China Sea,East China Sea,26.3351,126.0564,5.2
+5,2022-09-18ID8,2022-09-18,08:28:01,East China Sea,East China Sea,26.2527,126.0142,5.7
+6,2022-09-18ID9,2022-09-18,07:17:01,"958, Taiwan, Taitung County, Chishang Township, 富興村",富興村,23.0785,121.2325,5.1
+7,2022-09-18ID13,2022-09-18,06:53:01,"959, Taiwan, Taitung County, Donghe Township, 北源村",北源村,23.0886,121.315,5.2
+8,2022-09-18ID14,2022-09-18,06:53:01,"958, Taiwan, Taitung County, Chishang Township, 大坡村",大坡村,23.111,121.255,7.2
+9,2022-09-18ID15,2022-09-18,05:39:01,"983, Taiwan, Hualien County, Fuli Township, 豐南村",豐南村,23.1286,121.2723,5.6
+10,2022-09-17ID16,2022-09-17,15:02:01,"959, Taiwan, Taitung County, Donghe Township, 尚德村",尚德村,22.9716,121.2155,5.5
+11,2022-09-17ID17,2022-09-17,14:53:01,"958, Taiwan, Taitung County, Chishang Township, 錦園村",錦園村,23.0891,121.2412,5.1
+12,2022-09-17ID19,2022-09-17,13:59:01,"Pozo Almonte, Tarapacá, Chile",Chile,-20.1807,-69.1546,5.1
+13,2022-09-17ID20,2022-09-17,13:52:01,"955, Taiwan, Taitung County, Luye Township, 瑞和村",瑞和村,23.0,121.2,6.6
+14,2022-09-17ID21,2022-09-17,06:43:01,Indian Ocean,Indian Ocean,-7.265,105.0794,5.1
+15,2022-09-17ID22,2022-09-17,05:44:01,Indian Ocean,Indian Ocean,-52.7327,25.7117,5.2
+16,2022-09-17ID23,2022-09-17,00:27:01,South Pacific Ocean,South Pacific Ocean,-30.089,-177.9186,5.3
+17,2022-09-17ID24,2022-09-17,00:16:01,South Pacific Ocean,South Pacific Ocean,-22.3617,170.7824,5.5
+18,2022-09-16ID25,2022-09-16,16:37:01,Bismarck Sea,Bismarck Sea,-5.4389,148.1699,5.2
+19,2022-09-16ID26,2022-09-16,04:57:01,Philippine Sea,Philippine Sea,11.8598,141.1943,5.1
+20,2022-09-15ID28,2022-09-15,23:17:01,"Kargilik County, Kashgar Prefecture, Xinjiang, China",China,35.9433,77.7578,5.0
+21,2022-09-15ID29,2022-09-15,14:15:01,Bering Sea,Bering Sea,52.11,179.827,5.1
+22,2022-09-15ID30,2022-09-15,02:51:01,Coral Sea,Coral Sea,-12.5416,166.5552,5.1
+23,2022-09-14ID35,2022-09-14,11:12:01,South Pacific Ocean,South Pacific Ocean,-21.196,170.139,7.0
+24,2022-09-14ID36,2022-09-14,08:59:01,North Pacific Ocean,North Pacific Ocean,12.55,-87.8124,5.2
+25,2022-09-14ID38,2022-09-14,05:18:02,South Pacific Ocean,South Pacific Ocean,-16.915,-168.778,6.0
+26,2022-09-14ID40,2022-09-14,04:26:02,North Pacific Ocean,North Pacific Ocean,12.0144,143.5474,5.5
+27,2022-09-13ID43,2022-09-13,21:21:02,South Atlantic Ocean,South Atlantic Ocean,-56.5379,-25.5161,5.1
+28,2022-09-13ID44,2022-09-13,19:04:02,North Pacific Ocean,North Pacific Ocean,7.2247,-82.2868,5.2
+29,2022-09-13ID45,2022-09-13,18:56:01,South Atlantic Ocean,South Atlantic Ocean,-20.426,-11.7252,5.1
+30,2022-09-13ID46,2022-09-13,09:25:01,South Pacific Ocean,South Pacific Ocean,-22.9185,-178.4881,5.0
+31,2022-09-13ID47,2022-09-13,03:58:01,South Atlantic Ocean,South Atlantic Ocean,-58.5736,-16.072,5.0
+32,2022-09-12ID48,2022-09-12,15:20:02,"Morobe Province, Papua New Guinea",Guinea,-6.2795,146.3035,5.2
+33,2022-09-12ID49,2022-09-12,08:35:02,Philippine Sea,Philippine Sea,6.1766,127.5713,5.6
+34,2022-09-12ID50,2022-09-12,05:15:01,North Pacific Ocean,North Pacific Ocean,41.9783,145.0056,5.0
