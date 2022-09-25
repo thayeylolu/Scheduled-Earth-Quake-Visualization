@@ -1,0 +1,38 @@
+,id,date,time,location,filtered_location,lat,long,magnitude
+0,2022-09-24ID1,2022-09-24,22:04:01,South Atlantic Ocean,South Atlantic Ocean,-59.0489,-25.6239,5.0
+1,2022-09-24ID3,2022-09-24,19:59:01,"Big Bay, Vanuatu",Vanuatu,-15.0424,166.9613,5.0
+2,2022-09-24ID4,2022-09-24,17:39:01,Indian Ocean,Indian Ocean,-20.054,66.4575,5.0
+3,2022-09-23ID5,2022-09-23,23:08:01,South Pacific Ocean,South Pacific Ocean,-41.3802,-75.582,6.1
+4,2022-09-23ID7,2022-09-23,21:12:01,Banda Sea,Banda Sea,-5.1329,125.5986,5.2
+5,2022-09-23ID8,2022-09-23,21:08:01,Indian Ocean,Indian Ocean,3.8098,95.9872,6.2
+6,2022-09-23ID9,2022-09-23,19:20:02,South Pacific Ocean,South Pacific Ocean,-21.3794,-179.2635,5.4
+7,2022-09-23ID10,2022-09-23,18:42:01,"Aquila, Michoacán, Mexico",Mexico,18.5481,-103.6141,5.2
+8,2022-09-23ID11,2022-09-23,12:54:02,"Islands Region, Papua New Guinea",Guinea,-5.9957,148.6871,5.4
+9,2022-09-22ID12,2022-09-22,17:25:01,South Pacific Ocean,South Pacific Ocean,-14.9558,-173.55,5.2
+10,2022-09-22ID17,2022-09-22,09:26:01,Tasman Sea,Tasman Sea,-40.7598,174.0982,5.2
+11,2022-09-22ID21,2022-09-22,06:27:02,"Coalcomán de Vázquez Pallares, Michoacán, Mexico",Mexico,18.411,-102.9,7.0
+12,2022-09-21ID22,2022-09-21,22:41:01,North Pacific Ocean,North Pacific Ocean,35.2102,141.2426,5.0
+13,2022-09-21ID23,2022-09-21,18:14:01,"West Azerbaijan Province, Iran",Iran,38.4925,45.0065,5.1
+14,2022-09-21ID24,2022-09-21,12:15:02,Banda Sea,Banda Sea,-6.0555,131.0082,5.0
+15,2022-09-21ID25,2022-09-21,09:49:01,"Vitiaz Strait, Papua New Guinea",Guinea,-5.4702,147.0256,5.7
+16,2022-09-20ID26,2022-09-20,23:05:01,"West Sumatra, Indonesia",Indonesia,-1.2158,98.5759,5.0
+17,2022-09-20ID27,2022-09-20,19:09:01,South Atlantic Ocean,South Atlantic Ocean,-55.7451,-27.4683,5.1
+18,2022-09-20ID28,2022-09-20,18:44:01,Bering Sea,Bering Sea,55.532,166.3394,6.0
+19,2022-09-20ID29,2022-09-20,08:38:01,"Aquila, Michoacán, Mexico",Mexico,18.472,-103.5273,5.9
+20,2022-09-20ID30,2022-09-20,04:51:01,Coral Sea,Coral Sea,-15.5725,167.8959,5.1
+21,2022-09-19ID32,2022-09-19,19:51:01,North Pacific Ocean,North Pacific Ocean,18.4679,-103.8357,5.3
+22,2022-09-19ID33,2022-09-19,18:51:02,Indian Ocean,Indian Ocean,-36.8757,78.5512,5.6
+23,2022-09-19ID41,2022-09-19,18:11:01,North Pacific Ocean,North Pacific Ocean,18.171,-103.359,7.5
+24,2022-09-19ID42,2022-09-19,17:01:02,Indian Ocean,Indian Ocean,-36.9542,78.2758,5.9
+25,2022-09-19ID45,2022-09-19,04:49:01,Bismarck Sea,Bismarck Sea,-5.4202,146.5834,5.0
+26,2022-09-19ID46,2022-09-19,02:25:01,"981, Taiwan, Hualien County, Yuli Township, 松浦里",松浦里,23.4025,121.408,5.5
+27,2022-09-18ID48,2022-09-18,10:22:01,East China Sea,East China Sea,26.232,126.0445,5.0
+28,2022-09-18ID49,2022-09-18,10:05:01,Coral Sea,Coral Sea,-10.8151,164.2384,5.5
+29,2022-09-18ID50,2022-09-18,09:58:01,"983, Taiwan, Hualien County, Fuli Township, 羅山村",羅山村,23.1987,121.2979,5.5
+30,2022-09-18ID52,2022-09-18,09:04:01,"959, Taiwan, Taitung County, Donghe Township, 北源村",北源村,23.0634,121.2995,5.2
+31,2022-09-18ID53,2022-09-18,08:29:01,East China Sea,East China Sea,26.3351,126.0564,5.2
+32,2022-09-18ID54,2022-09-18,08:28:01,East China Sea,East China Sea,26.2527,126.0142,5.7
+33,2022-09-18ID55,2022-09-18,07:17:01,"958, Taiwan, Taitung County, Chishang Township, 富興村",富興村,23.0785,121.2325,5.1
+34,2022-09-18ID59,2022-09-18,06:53:01,"959, Taiwan, Taitung County, Donghe Township, 北源村",北源村,23.0886,121.315,5.2
+35,2022-09-18ID60,2022-09-18,06:53:01,"958, Taiwan, Taitung County, Chishang Township, 大坡村",大坡村,23.111,121.255,7.2
+36,2022-09-18ID61,2022-09-18,05:39:01,"983, Taiwan, Hualien County, Fuli Township, 豐南村",豐南村,23.1286,121.2723,5.6
