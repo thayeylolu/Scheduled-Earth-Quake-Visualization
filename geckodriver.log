@@ -5229,3 +5229,47 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 DevTools listening on ws://127.0.0.1:49347/devtools/browser/1f90a913-10d5-4999-9df0-48e2a385bba5
 1665329722906	Marionette	INFO	Stopped listening on port 49357
 !!! error running onStopped callback: TypeError: callback is not a function
+1665331055471	geckodriver	INFO	Listening on 127.0.0.1:49345
+1665331056858	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49346" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/rust_mozprofilervJd9N"
+1665331075794	Marionette	INFO	Marionette enabled
+1665331076656	Marionette	INFO	Listening on port 49364
+Read port: 49364
+Read port: 49364
+Read port: 49364
+Read port: 49364
+Read port: 49364
+Read port: 49364
+Read port: 49364
+Read port: 49364
+Read port: 49364
+Read port: 49364
+Read port: 49364
+Read port: 49364
+Read port: 49364
+Read port: 49364
+Read port: 49364
+Read port: 49364
+Read port: 49364
+Read port: 49364
+Read port: 49364
+Read port: 49364
+Read port: 49364
+Read port: 49364
+Read port: 49364
+Read port: 49364
+Read port: 49364
+Read port: 49364
+Read port: 49364
+Read port: 49364
+Read port: 49364
+Read port: 49364
+Read port: 49364
+Read port: 49364
+Read port: 49364
+WebDriver BiDi listening on ws://127.0.0.1:49346
+Read port: 49364
+1665331119194	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/rust_mozprofilervJd9N/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49346/devtools/browser/e6a0cfeb-7447-41e8-9f57-555ee6d33ffe
+1665331156668	Marionette	INFO	Stopped listening on port 49364
+!!! error running onStopped callback: TypeError: callback is not a function
