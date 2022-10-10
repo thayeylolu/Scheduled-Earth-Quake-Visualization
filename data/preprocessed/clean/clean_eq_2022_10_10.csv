@@ -1,0 +1,21 @@
+,id,date,time,location,filtered_location,lat,long,magnitude
+0,2022-10-09ID1,2022-10-09,23:18:02,South Pacific Ocean,South Pacific Ocean,-16.5096,178.0096,5.0
+1,2022-10-09ID2,2022-10-09,21:32:01,"Ambunti-Dreikikir, Papua New Guinea",Guinea,-3.8946,142.8881,5.4
+2,2022-10-09ID4,2022-10-09,17:01:01,South Atlantic Ocean,South Atlantic Ocean,-1.4013,-23.8746,6.2
+3,2022-10-08ID5,2022-10-08,22:20:02,"Desfina 330 50, Greece",Greece,38.3402,22.5492,5.2
+4,2022-10-08ID6,2022-10-08,15:10:01,South Pacific Ocean,South Pacific Ocean,-54.25,-132.8995,5.3
+5,2022-10-07ID9,2022-10-07,09:36:02,South Pacific Ocean,South Pacific Ocean,-14.926,-172.543,5.8
+6,2022-10-07ID10,2022-10-07,08:21:01,South Pacific Ocean,South Pacific Ocean,-16.1613,-174.5865,5.0
+7,2022-10-06ID12,2022-10-06,19:49:02,South Atlantic Ocean,South Atlantic Ocean,-47.2179,-12.0812,5.1
+8,2022-10-06ID13,2022-10-06,16:57:01,East China Sea,East China Sea,27.6203,126.9115,5.3
+9,2022-10-06ID14,2022-10-06,04:08:02,South Atlantic Ocean,South Atlantic Ocean,-55.9933,-28.1084,5.3
+10,2022-10-06ID15,2022-10-06,02:19:01,South Atlantic Ocean,South Atlantic Ocean,-58.7375,-25.2707,5.0
+11,2022-10-05ID16,2022-10-05,18:35:01,South Atlantic Ocean,South Atlantic Ocean,-58.6985,-25.1038,5.1
+12,2022-10-05ID17,2022-10-05,16:53:01,South Atlantic Ocean,South Atlantic Ocean,-58.6754,-25.2007,5.3
+13,2022-10-05ID18,2022-10-05,08:44:01,"Tambo Grande, Peru",Peru,-4.912,-80.5599,5.8
+14,2022-10-05ID19,2022-10-05,00:41:01,"West Azerbaijan Province, Iran",Iran,38.5227,45.0813,5.7
+15,2022-10-04ID20,2022-10-04,22:34:01,Banda Sea,Banda Sea,-7.6776,130.1255,5.1
+16,2022-10-04ID21,2022-10-04,13:30:01,"Calama, Antofagasta, Chile",Chile,-22.2666,-68.8067,5.0
+17,2022-10-03ID22,2022-10-03,18:23:01,North Atlantic Ocean,North Atlantic Ocean,53.7886,-35.5095,5.2
+18,2022-10-03ID25,2022-10-03,08:40:01,"Jamoyaon, Surigao del Norte, Philippines",Philippines,9.901,126.0103,5.0
+19,2022-10-03ID26,2022-10-03,07:21:02,South Atlantic Ocean,South Atlantic Ocean,-56.4002,-26.0345,5.5
