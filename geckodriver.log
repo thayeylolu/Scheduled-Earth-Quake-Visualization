@@ -5763,3 +5763,14 @@ WebDriver BiDi listening on ws://127.0.0.1:49499
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/rust_mozprofilecvbaNv/search.json.mozlz4", (void 0)))
 DevTools listening on ws://127.0.0.1:49499/devtools/browser/87d1eda0-ac6a-40c4-a1ea-df8dfa00353c
 1665937949842	Marionette	INFO	Stopped listening on port 49504
+1665940198152	geckodriver	INFO	Listening on 127.0.0.1:49400
+1665940198698	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49401" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/rust_mozprofileNKLXCX"
+1665940201201	Marionette	INFO	Marionette enabled
+1665940201276	Marionette	INFO	Listening on port 49408
+Read port: 49408
+Read port: 49408
+WebDriver BiDi listening on ws://127.0.0.1:49401
+1665940202713	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/rust_mozprofileNKLXCX/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49401/devtools/browser/4323df44-df5b-4d53-bcf7-de3c11b9255e
+1665940212476	Marionette	INFO	Stopped listening on port 49408
