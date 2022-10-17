@@ -1,0 +1,26 @@
+,id,date,time,location,filtered_location,lat,long,magnitude
+0,2022-10-16ID1,2022-10-16,12:59:01,North Pacific Ocean,North Pacific Ocean,4.433,-87.535,6.7
+1,2022-10-15ID2,2022-10-15,19:35:01,North Pacific Ocean,North Pacific Ocean,12.0586,143.7996,5.0
+2,2022-10-15ID3,2022-10-15,18:46:01,Banda Sea,Banda Sea,-7.3379,128.8485,5.1
+3,2022-10-15ID4,2022-10-15,03:00:01,South Pacific Ocean,South Pacific Ocean,-18.8464,-172.4976,5.2
+4,2022-10-15ID5,2022-10-15,01:35:01,Solomon Sea,Solomon Sea,-5.3605,153.107,5.1
+5,2022-10-15ID6,2022-10-15,00:33:02,South Atlantic Ocean,South Atlantic Ocean,-59.0561,-25.6029,5.2
+6,2022-10-14ID7,2022-10-14,21:31:01,South Atlantic Ocean,South Atlantic Ocean,-60.6474,-19.8725,5.2
+7,2022-10-14ID8,2022-10-14,20:30:01,Indian Ocean,Indian Ocean,-45.1184,95.7813,5.1
+8,2022-10-14ID9,2022-10-14,19:29:01,"Ka'u, HI",HI,19.1979,-155.5449,5.0
+9,2022-10-14ID10,2022-10-14,19:12:01,"Hawaii County, HI",HI,19.131,-155.481,5.0
+10,2022-10-14ID11,2022-10-14,10:25:02,South Pacific Ocean,South Pacific Ocean,-20.9233,-178.6842,5.5
+11,2022-10-14ID12,2022-10-14,02:32:01,South Pacific Ocean,South Pacific Ocean,-30.1182,-177.6786,5.0
+12,2022-10-13ID13,2022-10-13,22:40:02,South Pacific Ocean,South Pacific Ocean,-4.7937,153.5574,6.4
+13,2022-10-13ID14,2022-10-13,14:20:01,Cook Strait,Strait,-40.3788,173.4568,5.1
+14,2022-10-13ID15,2022-10-13,06:44:02,Pacific Ocean,Pacific Ocean,44.7902,150.2924,5.0
+15,2022-10-12ID17,2022-10-12,13:35:01,Banda Sea,Banda Sea,-7.4755,128.2888,5.0
+16,2022-10-12ID18,2022-10-12,09:25:01,Pacific Ocean,Pacific Ocean,49.0415,157.9716,5.1
+17,2022-10-11ID19,2022-10-11,16:19:01,"İkizler, 80600 Karagedik/Düziçi/Osmaniye, Turkey",Turkey,37.219,36.277,5.0
+18,2022-10-11ID20,2022-10-11,14:10:01,Coral Sea,Coral Sea,-14.9421,167.1783,5.3
+19,2022-10-11ID21,2022-10-11,13:12:01,Solomon Islands,Islands,-10.2162,161.4927,5.2
+20,2022-10-11ID22,2022-10-11,11:25:01,South Atlantic Ocean,South Atlantic Ocean,-1.0534,-13.7121,5.2
+21,2022-10-10ID23,2022-10-10,23:43:01,"Badakhshan, Afghanistan",Afghanistan,37.0429,71.4357,5.1
+22,2022-10-10ID24,2022-10-10,19:45:02,Philippine Sea,Philippine Sea,23.9334,122.2898,5.7
+23,2022-10-10ID25,2022-10-10,18:11:01,South Pacific Ocean,South Pacific Ocean,-19.9555,-176.509,5.5
+24,2022-10-10ID26,2022-10-10,16:29:01,South Pacific Ocean,South Pacific Ocean,-4.7946,153.5126,5.0
