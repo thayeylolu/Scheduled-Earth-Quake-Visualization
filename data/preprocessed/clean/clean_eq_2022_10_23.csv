@@ -1,0 +1,23 @@
+,id,date,time,location,filtered_location,lat,long,magnitude
+0,2022-10-22ID1,2022-10-22,22:01:01,South Pacific Ocean,South Pacific Ocean,-17.1623,-172.5981,5.0
+1,2022-10-22ID2,2022-10-22,19:58:01,Solomon Sea,Solomon Sea,-6.1386,148.118,5.0
+2,2022-10-22ID3,2022-10-22,12:30:01,Sea of Okhotsk,Okhotsk,46.4381,149.8789,5.0
+3,2022-10-22ID4,2022-10-22,05:37:01,"Luding County, Garzê Tibetan Autonomous Prefecture, Sichuan, China",China,29.6307,102.0769,5.3
+4,2022-10-21ID5,2022-10-21,09:39:01,Tonga,Tonga,-19.9683,-174.7,5.2
+5,2022-10-21ID6,2022-10-21,02:42:01,Indian Ocean,Indian Ocean,-31.0998,58.7547,5.0
+6,2022-10-20ID10,2022-10-20,12:07:02,North Pacific Ocean,North Pacific Ocean,7.725,-82.342,6.9
+7,2022-10-20ID11,2022-10-20,07:12:01,Andaman Sea,Andaman Sea,11.5674,93.2197,5.1
+8,2022-10-20ID12,2022-10-20,05:27:02,South Pacific Ocean,South Pacific Ocean,-29.0168,-176.5489,5.2
+9,2022-10-19ID13,2022-10-19,15:23:02,South Atlantic Ocean,South Atlantic Ocean,-7.6894,-13.6216,5.6
+10,2022-10-19ID14,2022-10-19,14:57:01,South Atlantic Ocean,South Atlantic Ocean,-60.1557,-23.2197,5.1
+11,2022-10-19ID15,2022-10-19,08:26:01,"Elbebe, Sultan Kudarat, Philippines",Philippines,6.7305,125.1321,5.4
+12,2022-10-19ID16,2022-10-19,06:16:01,North Pacific Ocean,North Pacific Ocean,39.6645,143.3708,5.2
+13,2022-10-19ID17,2022-10-19,04:55:01,"Mangya, Haixi Mongol and Tibetan Autonomous Prefecture, Qinghai, China",China,37.7402,92.2593,5.5
+14,2022-10-19ID18,2022-10-19,04:37:01,"Daeo, Morotai Selatan, Morotai Island Regency, North Maluku, Indonesia",Indonesia,2.1196,128.4345,5.1
+15,2022-10-18ID19,2022-10-18,12:07:01,Banda Sea,Banda Sea,-4.3466,125.3684,5.0
+16,2022-10-18ID20,2022-10-18,07:50:02,"Ovalle, Coquimbo, Chile",Chile,-30.6845,-71.491,5.0
+17,2022-10-17ID21,2022-10-17,13:52:01,"Putre, Arica y Parinacota, Chile",Chile,-18.4203,-69.379,5.2
+18,2022-10-17ID22,2022-10-17,13:41:01,South China Sea,South China Sea,21.4133,121.2141,5.1
+19,2022-10-17ID23,2022-10-17,13:32:02,Molucca Sea,Molucca Sea,0.0168,123.4641,5.0
+20,2022-10-17ID24,2022-10-17,08:35:01,"Bula, East Seram, Maluku, Indonesia",Indonesia,-3.1374,130.5232,5.1
+21,2022-10-16ID25,2022-10-16,12:59:01,North Pacific Ocean,North Pacific Ocean,4.433,-87.535,6.7
