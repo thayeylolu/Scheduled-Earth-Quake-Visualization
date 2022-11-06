@@ -7130,3 +7130,22 @@ Read port: 49417
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/rust_mozprofilerqNEHB/search.json.mozlz4", (void 0)))
 DevTools listening on ws://127.0.0.1:49410/devtools/browser/889eb130-1ca2-455a-960d-f332faf75883
 1667700017676	Marionette	INFO	Stopped listening on port 49417
+1667705417823	geckodriver	INFO	Listening on 127.0.0.1:49371
+1667705419724	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49372" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/rust_mozprofileM4aNSf"
+1667705467181	Marionette	INFO	Marionette enabled
+1667705467800	Marionette	INFO	Listening on port 49397
+Read port: 49397
+Read port: 49397
+Read port: 49397
+Read port: 49397
+WebDriver BiDi listening on ws://127.0.0.1:49372
+Read port: 49397
+1667705473903	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 766))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 420))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/rust_mozprofileM4aNSf/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49372/devtools/browser/efed89a5-340f-4a64-910a-11f623fc4e64
+1667705514313	Marionette	INFO	Stopped listening on port 49397
+!!! error running onStopped callback: TypeError: callback is not a function
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
