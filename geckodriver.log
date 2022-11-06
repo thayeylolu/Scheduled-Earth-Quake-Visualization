@@ -7858,3 +7858,13 @@ DevTools listening on ws://127.0.0.1:49478/devtools/browser/9cfaffd0-b8ba-49f5-a
 1667777597755	Marionette	INFO	Stopped listening on port 49485
 console.error: services.settings: 
   main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1667778589277	geckodriver	INFO	Listening on 127.0.0.1:49538
+1667778589888	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49539" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/rust_mozprofileq74A5X"
+1667778591292	Marionette	INFO	Marionette enabled
+1667778591349	Marionette	INFO	Listening on port 49546
+Read port: 49546
+WebDriver BiDi listening on ws://127.0.0.1:49539
+1667778592402	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/rust_mozprofileq74A5X/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49539/devtools/browser/bb61e94b-90cf-4136-88bc-bc83a39cc66a
+1667778600885	Marionette	INFO	Stopped listening on port 49546
