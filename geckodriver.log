@@ -7406,3 +7406,16 @@ DevTools listening on ws://127.0.0.1:49352/devtools/browser/8362306b-4022-40db-9
 !!! error running onStopped callback: TypeError: callback is not a function
 console.error: services.settings: 
   main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1667733910608	geckodriver	INFO	Listening on 127.0.0.1:49414
+1667733910630	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "49415" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/rust_mozprofileyVJ1fT"
+1667733912106	Marionette	INFO	Marionette enabled
+1667733912171	Marionette	INFO	Listening on port 49420
+Read port: 49420
+WebDriver BiDi listening on ws://127.0.0.1:49415
+Read port: 49420
+1667733913968	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/rust_mozprofileyVJ1fT/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49415/devtools/browser/7a88ce59-fd5d-42e4-871c-73507d64fa0c
+1667733922157	Marionette	INFO	Stopped listening on port 49420
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
