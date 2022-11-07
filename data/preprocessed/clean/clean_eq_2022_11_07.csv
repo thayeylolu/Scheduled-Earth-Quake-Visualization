@@ -1,0 +1,34 @@
+,id,date,time,location,filtered_location,lat,long,magnitude
+0,2022-11-06ID2,2022-11-06,19:23:01,South Atlantic Ocean,South Atlantic Ocean,-60.6288,-25.2553,5.1
+1,2022-11-06ID3,2022-11-06,10:07:02,North Pacific Ocean,North Pacific Ocean,51.423,-175.969,5.1
+2,2022-11-06ID4,2022-11-06,07:29:01,"Chucatamani, 23240, Peru",Peru,-17.5604,-70.2091,5.0
+3,2022-11-06ID5,2022-11-06,04:45:01,North Pacific Ocean,North Pacific Ocean,43.1934,146.8916,5.2
+4,2022-11-06ID6,2022-11-06,04:09:02,South Atlantic Ocean,South Atlantic Ocean,-17.7175,-13.0681,5.2
+5,2022-11-06ID7,2022-11-06,00:22:01,Celebes Sea,Celebes Sea,2.5301,124.6567,5.6
+6,2022-11-05ID8,2022-11-05,19:15:01,Solomon Sea,Solomon Sea,-9.7936,154.9417,5.1
+7,2022-11-05ID9,2022-11-05,15:51:01,Molucca Sea,Molucca Sea,3.6158,126.8929,5.1
+8,2022-11-05ID10,2022-11-05,08:48:01,Solomon Sea,Solomon Sea,-9.7629,159.4379,5.3
+9,2022-11-05ID11,2022-11-05,08:00:01,Philippine Sea,Philippine Sea,4.1017,126.2786,5.0
+10,2022-11-05ID12,2022-11-05,00:33:01,South Pacific Ocean,South Pacific Ocean,-21.0915,-177.6333,5.2
+11,2022-11-04ID13,2022-11-04,14:59:01,South Pacific Ocean,South Pacific Ocean,-20.1655,-70.7769,5.0
+12,2022-11-04ID15,2022-11-04,10:25:01,Gulf of California,California,28.142,-112.3013,6.2
+13,2022-11-04ID16,2022-11-04,07:52:01,South Pacific Ocean,South Pacific Ocean,-20.9605,-178.7072,5.1
+14,2022-11-04ID17,2022-11-04,04:47:01,North Pacific Ocean,North Pacific Ocean,13.1868,-89.5773,5.7
+15,2022-11-04ID18,2022-11-04,03:17:01,Molucca Sea,Molucca Sea,2.0322,127.114,5.0
+16,2022-11-03ID19,2022-11-03,21:16:01,South Atlantic Ocean,South Atlantic Ocean,-41.0033,-16.6635,5.0
+17,2022-11-03ID20,2022-11-03,21:14:01,North Atlantic Ocean,North Atlantic Ocean,53.7902,-35.5159,5.4
+18,2022-11-03ID21,2022-11-03,19:06:02,Banda Sea,Banda Sea,-6.5363,130.4966,5.3
+19,2022-11-03ID23,2022-11-03,05:05:01,"Gura Teghii, Romania",Romania,45.5337,26.4713,5.1
+20,2022-11-02ID25,2022-11-02,14:38:01,South Atlantic Ocean,South Atlantic Ocean,-60.7877,-25.7347,5.7
+21,2022-11-02ID26,2022-11-02,13:42:01,South China Sea,South China Sea,19.5964,121.7086,5.0
+22,2022-11-02ID27,2022-11-02,05:13:01,North Pacific Ocean,North Pacific Ocean,31.4245,-133.3012,6.0
+23,2022-11-02ID28,2022-11-02,02:55:01,"Calama, Antofagasta, Chile",Chile,-22.3399,-68.8952,5.3
+24,2022-11-02ID29,2022-11-02,00:05:01,North Pacific Ocean,North Pacific Ocean,41.971,145.0536,5.1
+25,2022-11-01ID30,2022-11-01,13:56:01,North Pacific Ocean,North Pacific Ocean,12.4288,-89.1147,5.0
+26,2022-11-01ID31,2022-11-01,08:51:01,East China Sea,East China Sea,24.7696,122.6285,5.4
+27,2022-10-31ID32,2022-10-31,22:01:02,Tyrrhenian Sea,Tyrrhenian Sea,39.8989,15.6365,5.5
+28,2022-10-31ID33,2022-10-31,14:30:01,South Atlantic Ocean,South Atlantic Ocean,-58.975,-25.8188,5.0
+29,2022-10-31ID34,2022-10-31,13:51:01,"Subtanjalla, Peru",Peru,-14.0782,-75.9495,5.1
+30,2022-10-31ID35,2022-10-31,13:42:01,"Tigre, 16810, Peru",Peru,-2.3874,-76.1935,5.5
+31,2022-10-31ID36,2022-10-31,08:37:02,South Pacific Ocean,South Pacific Ocean,-38.7565,-91.8537,5.8
+32,2022-10-31ID37,2022-10-31,03:28:01,"Kertasari, Sindangbarang, Cianjur Regency, West Java, Indonesia",Indonesia,-7.439,107.0654,5.0
