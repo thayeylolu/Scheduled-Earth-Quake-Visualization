@@ -1,0 +1,41 @@
+,id,date,time,location,filtered_location,lat,long,magnitude
+0,2022-11-19ID1,2022-11-19,20:21:01,South Atlantic Ocean,South Atlantic Ocean,-59.8002,-26.3993,5.1
+1,2022-11-19ID2,2022-11-19,18:49:02,Indonesia,Indonesia,-7.8043,108.0179,5.0
+2,2022-11-19ID3,2022-11-19,17:30:01,South Atlantic Ocean,South Atlantic Ocean,-59.831,-26.4008,5.3
+3,2022-11-19ID4,2022-11-19,14:41:01,Pacific Ocean,Pacific Ocean,55.4709,162.791,5.2
+4,2022-11-19ID5,2022-11-19,02:40:01,West Philippine Sea,West Philippine Sea,16.0443,119.4764,5.1
+5,2022-11-19ID6,2022-11-19,01:06:02,South Atlantic Ocean,South Atlantic Ocean,-52.2175,13.6366,5.3
+6,2022-11-18ID8,2022-11-18,17:49:01,"Yuanjiang Hani, Yi and Dai Autonomous County, Yuxi, Yunnan, China",China,23.46,102.2462,5.0
+7,2022-11-18ID9,2022-11-18,14:25:01,Indian Ocean,Indian Ocean,-4.6325,100.5504,5.4
+8,2022-11-18ID10,2022-11-18,13:57:01,Indian Ocean,Indian Ocean,-4.9559,100.7384,6.9
+9,2022-11-18ID11,2022-11-18,12:00:02,South Pacific Ocean,South Pacific Ocean,-22.0562,170.2289,5.0
+10,2022-11-18ID12,2022-11-18,08:52:01,"Avachinskiy Zaliv, Russia",Russia,53.1513,159.7361,5.0
+11,2022-11-18ID13,2022-11-18,06:55:01,South Pacific Ocean,South Pacific Ocean,-29.7594,-177.5735,5.3
+12,2022-11-18ID14,2022-11-18,01:30:02,Coral Sea,Coral Sea,-11.3225,163.9527,5.0
+13,2022-11-18ID16,2022-11-18,00:06:06,"Point MacKenzie, AK 99654",99654,61.3596,-150.1144,5.0
+14,2022-11-17ID17,2022-11-17,14:19:02,"Hormozgan Province, Iran",Iran,26.9701,55.2311,5.2
+15,2022-11-17ID19,2022-11-17,11:40:02,South Pacific Ocean,South Pacific Ocean,-22.3374,170.2046,5.4
+16,2022-11-17ID20,2022-11-17,07:14:02,Solomon Sea,Solomon Sea,-5.1538,153.8011,5.1
+17,2022-11-17ID22,2022-11-17,04:40:02,"Pablo Sexto, Ecuador",Ecuador,-1.8845,-78.0535,5.2
+18,2022-11-17ID23,2022-11-17,00:49:01,North Pacific Ocean,North Pacific Ocean,40.7873,142.3764,5.1
+19,2022-11-16ID24,2022-11-16,22:45:02,Coral Sea,Coral Sea,-11.7122,166.6109,5.9
+20,2022-11-16ID29,2022-11-16,21:43:02,"Pecos-Barstow-Toyah Independent School District, TX",TX,31.6274,-104.0266,5.3
+21,2022-11-16ID30,2022-11-16,09:41:01,Indian Ocean,Indian Ocean,-5.3468,102.3553,5.1
+22,2022-11-16ID31,2022-11-16,06:22:01,Indian Ocean,Indian Ocean,-4.7464,100.7715,5.5
+23,2022-11-15ID32,2022-11-15,21:38:01,South Atlantic Ocean,South Atlantic Ocean,-59.7682,-26.1288,5.2
+24,2022-11-15ID33,2022-11-15,21:34:02,Indian Ocean,Indian Ocean,-42.8083,124.5807,5.0
+25,2022-11-15ID34,2022-11-15,17:43:02,"Tlk. Paraja, Indonesia",Indonesia,-6.799,105.4657,5.0
+26,2022-11-15ID35,2022-11-15,07:19:01,Banda Sea,Banda Sea,-6.1669,129.0004,5.0
+27,2022-11-14ID36,2022-11-14,15:21:02,South Pacific Ocean,South Pacific Ocean,-64.0288,-167.7389,5.5
+28,2022-11-14ID37,2022-11-14,08:29:01,North Pacific Ocean,North Pacific Ocean,33.8016,137.2543,6.1
+29,2022-11-14ID38,2022-11-14,05:21:01,South Pacific Ocean,South Pacific Ocean,-26.0418,178.2262,6.1
+30,2022-11-14ID39,2022-11-14,04:26:01,Bismarck Sea,Bismarck Sea,-5.042,147.8138,5.0
+31,2022-11-14ID40,2022-11-14,01:33:01,North Atlantic Ocean,North Atlantic Ocean,53.9666,-35.5007,5.1
+32,2022-11-13ID41,2022-11-13,22:43:02,Philippine Sea,Philippine Sea,21.491,143.1205,5.0
+33,2022-11-13ID42,2022-11-13,15:30:01,Indian Ocean,Indian Ocean,-8.9513,108.8289,5.2
+34,2022-11-13ID43,2022-11-13,08:39:01,North Pacific Ocean,North Pacific Ocean,44.0411,148.2666,5.1
+35,2022-11-13ID44,2022-11-13,04:17:02,South Pacific Ocean,South Pacific Ocean,-15.8943,-172.7384,5.0
+36,2022-11-13ID45,2022-11-13,03:18:01,Chile,Chile,-37.4362,-73.7566,5.0
+37,2022-11-13ID46,2022-11-13,02:46:01,Chile,Chile,-37.553,-73.7655,5.7
+38,2022-11-13ID47,2022-11-13,02:45:01,Chile,Chile,-37.4487,-73.6979,6.4
+39,2022-11-13ID48,2022-11-13,02:06:01,Philippine Sea,Philippine Sea,22.4014,121.1602,5.1
